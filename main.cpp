@@ -2,15 +2,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-    String defaultString;
-    defaultString.display();
+    String string1;
+    string1.display();
 
-    String customSizeString(50);
-    customSizeString.input();
-    customSizeString.display();
+    String newstring(50);
+    newstring.input();
+    newstring.display();
 
-    String userInputString("Hello");
-    userInputString.display();
+    String inputstring("Hello");
+    inputstring.display();
     cout << "Количество объектов: " << String::Count() << endl;
 
     return 0;
