@@ -2,7 +2,7 @@
 #define STRING_H
 class String {
 private:
-    static int count;
+    int count;
     char str[81];
     int size;
 
